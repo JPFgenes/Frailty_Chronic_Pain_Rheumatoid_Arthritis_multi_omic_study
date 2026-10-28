@@ -1,0 +1,48 @@
+
+# =====================================
+# Frailty, Chronic Pain and RA analyses
+# =====================================
+
+# Input data and generated results
+data/
+results/
+output/
+outputs/
+
+# GWAS and analysis data
+*.tsv
+*.csv
+*.txt
+*.gz
+*.bgz
+*.bed
+*.bim
+*.fam
+
+# R temporary files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+
+# R Markdown generated files
+*_cache/
+*_files/
+*.html
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local configuration and credentials
+.env
+.env.*
+*.key
+*.pem
